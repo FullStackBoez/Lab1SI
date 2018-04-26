@@ -1,0 +1,24 @@
+1.Vekje instalirano
+2.mkdir lab1 
+  git init
+3.cd lab1
+  touch l1.txt
+4.nano l1.txt(Kristijan Kuzmanovski 163137)
+5.git add l1.txt
+  git commit -m"Initial commit"
+6.nano l1.txt(PET)
+7.git add l1.txt
+  git commit -m"modfy l1.txt"
+8.Manualy done
+9.git remote add origin https://github.com/FullStackBoez/Lab1SI.git
+10.git push origin master
+11.
+12.git checkout -b logging (ili git branch logging i git checkout logging)
+13.nano log.txt(git log)
+14.git add log.txt
+   git commit -m"log.txt"
+   git push origin logging
+15.git checkout master
+   git merge logging
+   git push origin master
+16.git checkout -b allcomands(ili git branch allcomandsi git checkout allcomands)
